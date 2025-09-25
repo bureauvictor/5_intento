@@ -1,4 +1,6 @@
 name: hola-mundo
+env:
+  USERNAME: ${{ github.actor }}
 on: [push]
 jobs:
   hola-mundo:
